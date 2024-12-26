@@ -6,14 +6,6 @@ const mergeSorted = (arrayOne, arrayTwo) => {
 };
 
 const mergeSortedTwo = (arrayOne, arrayTwo) => {
-  if (arrayOne.length === 0) {
-    return arrayTwo;
-  }
-
-  if (arrayTwo.length === 0) {
-    return arrayOne;
-  }
-
   const newArray = [];
   let arrayOneItem = arrayOne[0];
   let arrayTwoItem = arrayTwo[0];
